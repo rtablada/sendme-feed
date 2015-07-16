@@ -10,6 +10,6 @@ server.use(jsonServer.defaults);
 var router = jsonServer.router('db.json');
 server.use(router);
 
-var port = process.env.PORT || 3000;
+console.log("Node app is running at localhost:" + app.get('port'));
 
-server.listen(port);
+server.listen(process.env.PORT || 5000);
