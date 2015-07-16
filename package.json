@@ -1,0 +1,23 @@
+{
+  "name": "sendme-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtablada/sendme-feed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtablada/sendme-feed/issues"
+  },
+  "homepage": "https://github.com/rtablada/sendme-feed",
+  "dependencies": {
+    "json-server": "^0.7.21"
+  }
+}
